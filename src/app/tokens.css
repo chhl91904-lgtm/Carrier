@@ -26,8 +26,8 @@
 
   /* Typography */
   --font-family-sans:
-    "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Noto Sans KR",
-    sans-serif;
+    "Inter Variable", "Pretendard Variable", Pretendard, "Apple SD Gothic Neo",
+    "Noto Sans KR", sans-serif;
   --font-size-caption: 0.875rem;
   --font-size-body-small: 0.9375rem;
   --font-size-body: 1rem;

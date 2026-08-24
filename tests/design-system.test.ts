@@ -35,14 +35,17 @@ describe("design tokens", () => {
     expect(layoutTokens.controlMinimumSize).toBe("2.75rem");
   });
 
-  it("uses the self-hosted Pretendard variable font", () => {
+  it("uses self-hosted Inter for Latin and Pretendard for Korean", () => {
     const layout = readFileSync("src/app/layout.tsx", "utf8");
     const tokens = readFileSync("src/app/tokens.css", "utf8");
 
+    expect(layout).toContain("@fontsource-variable/inter/wght.css");
     expect(layout).toContain(
       "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css",
     );
-    expect(tokens).toContain('"Pretendard Variable", Pretendard');
+    expect(tokens).toContain(
+      '"Inter Variable", "Pretendard Variable", Pretendard',
+    );
   });
 
   it("defines responsive breakpoints from mobile through wide desktop", () => {
