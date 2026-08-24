@@ -1128,16 +1128,17 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-4);
   color: var(--color-carrier-blue-light);
   font-size: var(--font-size-caption);
-  font-weight: var(--font-weight-strong);
-  letter-spacing: 0.14em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 .esg-hero h1 {
   max-width: 13ch;
   margin: 0;
   font-size: clamp(3.5rem, 9vw, 7.5rem);
-  line-height: 0.92;
-  letter-spacing: -0.065em;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.035em;
 }
 
 .esg-hero-copy {
@@ -1177,8 +1178,9 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-navy);
   font-size: clamp(2.25rem, 5vw, 4.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.045em;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
 }
 
 .esg-pillar-list {
@@ -1200,21 +1202,22 @@ a.floating-shelter-button:hover {
 .esg-pillar-list article > span {
   color: var(--color-carrier-blue-active);
   font-size: 3rem;
-  font-weight: var(--font-weight-display);
+  font-weight: 700;
 }
 
 .esg-pillar-list article > p {
   margin: 0 0 var(--space-4);
   color: var(--color-text-muted);
   font-size: var(--font-size-caption);
-  font-weight: var(--font-weight-strong);
-  letter-spacing: 0.1em;
+  font-weight: 600;
+  letter-spacing: 0.07em;
 }
 
 .esg-pillar-list h3 {
   margin: 0;
   color: var(--color-navy);
   font-size: 1.55rem;
+  font-weight: 600;
   line-height: 1.25;
 }
 
@@ -1340,7 +1343,7 @@ a.floating-shelter-button:hover {
   font-size: clamp(2rem, 5vw, 4.5rem);
   font-weight: 500;
   line-height: 1.18;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.025em;
 }
 
 .esg-closing strong {
@@ -1405,8 +1408,8 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-4);
   color: var(--color-carrier-blue-light);
   font-size: var(--font-size-caption);
-  font-weight: var(--font-weight-strong);
-  letter-spacing: 0.14em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 .support-hero h1,
@@ -1414,6 +1417,16 @@ a.floating-shelter-button:hover {
 .support-form-page h1 {
   margin: 0;
   font-size: clamp(3.25rem, 8vw, 7rem);
+}
+
+.support-hero h1 {
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+.support-detail h1,
+.support-form-page h1 {
   line-height: 0.96;
   letter-spacing: -0.06em;
 }
@@ -1444,8 +1457,9 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-10);
   color: var(--color-navy);
   font-size: clamp(2.2rem, 5vw, 4.25rem);
-  line-height: 1.08;
-  letter-spacing: -0.045em;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
 }
 
 .support-hub .ui-container > div {
@@ -1473,13 +1487,14 @@ a.floating-shelter-button:hover {
 
 .support-hub a > span {
   color: var(--color-carrier-blue-active);
-  font-weight: var(--font-weight-display);
+  font-weight: 600;
 }
 
 .support-hub h3 {
   margin: auto 0 var(--space-3);
   color: var(--color-navy);
   font-size: 1.65rem;
+  font-weight: 600;
 }
 
 .support-hub a p {
@@ -1490,6 +1505,7 @@ a.floating-shelter-button:hover {
 
 .support-hub a strong {
   color: var(--color-carrier-blue-active);
+  font-weight: 600;
 }
 
 .support-safety {
