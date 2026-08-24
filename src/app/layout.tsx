@@ -8,6 +8,7 @@ import { readDemoSession } from "@/lib/auth/session";
 import { getCartItemCount } from "@/lib/cart/domain";
 import { readDemoCart } from "@/lib/cart/repository";
 
+import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 import "./globals.css";
 
 export const metadata: Metadata = {

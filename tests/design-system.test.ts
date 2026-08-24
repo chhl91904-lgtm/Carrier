@@ -35,6 +35,16 @@ describe("design tokens", () => {
     expect(layoutTokens.controlMinimumSize).toBe("2.75rem");
   });
 
+  it("uses the self-hosted Pretendard variable font", () => {
+    const layout = readFileSync("src/app/layout.tsx", "utf8");
+    const tokens = readFileSync("src/app/tokens.css", "utf8");
+
+    expect(layout).toContain(
+      "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css",
+    );
+    expect(tokens).toContain('"Pretendard Variable", Pretendard');
+  });
+
   it("defines responsive breakpoints from mobile through wide desktop", () => {
     expect(layoutTokens.breakpoints).toEqual({
       mobile: "40rem",

@@ -25,7 +25,9 @@
   --color-focus: #005eb8;
 
   /* Typography */
-  --font-family-sans: Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --font-family-sans:
+    "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Noto Sans KR",
+    sans-serif;
   --font-size-caption: 0.875rem;
   --font-size-body-small: 0.9375rem;
   --font-size-body: 1rem;
