@@ -3330,7 +3330,7 @@ a.floating-shelter-button:hover {
   max-width: 26rem;
 }
 
-.product-visual-placeholder svg {
+.product-visual-image {
   width: 100%;
   height: auto;
   filter: drop-shadow(0 2rem 2rem rgb(0 0 0 / 22%));

@@ -11,8 +11,9 @@ describe("HOME page", () => {
     expect(html).toContain("CANE MATE");
     expect(html).toContain("더 안전한 이동, 더 나은 일상.");
     expect(html).toContain("버려지는 자원에 새로운 가치를 더합니다.");
-    expect(html).toContain("CANE MATE 스마트 흰지팡이 기획 형태");
-    expect(html).toContain("공식 제품 이미지 교체 예정");
+    expect(html).toContain('src="/cane-mate-product.png"');
+    expect(html).toContain("펼친 CANE MATE 스마트 흰지팡이");
+    expect(html).not.toContain("공식 제품 이미지 교체 예정");
   });
 
   it("keeps the recycling story and both detail routes connected", () => {

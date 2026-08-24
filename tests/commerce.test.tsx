@@ -213,15 +213,14 @@ describe("BUY and CART presentation", () => {
     expect(populatedHtml).toContain("삭제");
   });
 
-  it("keeps product diagram IDs unique when more than one cart line renders", () => {
+  it("renders the upright product image without folded-cane artwork", () => {
     const html = renderToStaticMarkup(
       <>
         <ProductVisualPlaceholder compact idPrefix="standard" />
         <ProductVisualPlaceholder compact idPrefix="gift" />
       </>,
     );
-    expect(html).toContain('id="standard-title"');
-    expect(html).toContain('id="gift-title"');
-    expect(html.match(/id="standard-title"/g)).toHaveLength(1);
+    expect(html.match(/src="\/cane-mate-product.png"/g)).toHaveLength(2);
+    expect(html).not.toContain("4-STEP FOLDING");
   });
 });
