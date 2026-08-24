@@ -30,6 +30,9 @@ describe("global site shell", () => {
     expect(experienceIndex).toBeLessThan(esgIndex);
     expect(esgIndex).toBeLessThan(buyIndex);
     expect(buyIndex).toBeLessThan(supportIndex);
+    expect(html).toContain('src="/carrier-logo.svg"');
+    expect(html).toContain('alt="Carrier"');
+    expect(html).not.toContain("Carrier 로고 placeholder");
     expect(html).toContain("LOGIN");
     expect(html).toContain("비로그인 상태");
     expect(html).toContain('aria-label="장바구니, 상품 0개"');

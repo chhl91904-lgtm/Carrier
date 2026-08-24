@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { type KeyboardEvent, useRef, useState } from "react";
@@ -80,12 +81,15 @@ export function SiteHeader({
 
       <Container className="header-utility">
         <div className="brand-group" role="group" aria-label="CANE MATE 브랜드">
-          <span
-            className="brand-logo brand-carrier"
-            role="img"
-            aria-label="Carrier 로고 placeholder"
-          >
-            CARRIER
+          <span className="brand-logo brand-carrier">
+            <Image
+              className="brand-carrier-logo"
+              src="/carrier-logo.svg"
+              alt="Carrier"
+              width={80}
+              height={32}
+              priority
+            />
           </span>
           <span className="brand-separator" aria-hidden="true" />
           <Link

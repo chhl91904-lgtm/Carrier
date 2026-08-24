@@ -467,8 +467,12 @@ textarea.ui-control {
 }
 
 .brand-carrier {
-  color: var(--color-carrier-blue);
-  font-size: clamp(0.6875rem, 2vw, 0.8125rem);
+  flex: 0 0 auto;
+}
+
+.brand-carrier-logo {
+  width: clamp(3.75rem, 8vw, 4rem);
+  height: auto;
 }
 
 .brand-cane-mate {
