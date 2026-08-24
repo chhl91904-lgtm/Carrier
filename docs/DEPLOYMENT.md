@@ -4,7 +4,7 @@
 
 - Production URL: <https://cane-mate.vercel.app>
 - 공급자·프로젝트: Vercel `chhl91904-4220s-projects/cane-mate`
-- 배포 ID: `dpl_6WbDkYZTy8yEk1rUn1FTz7Kd7ABZ`
+- 배포 방식: GitHub `main` push 기반 Vercel Production 자동 배포
 - GitHub 저장소: `https://github.com/chhl91904-lgtm/Carrier` (`main`)
 - 모드: `demo`
 - 상태: `READY`
