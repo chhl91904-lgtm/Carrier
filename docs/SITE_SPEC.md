@@ -659,7 +659,7 @@ Carrier 가치:
 | D-05 | companion app | 웹에서는 앱 연동 소개만 | 프로젝트 규모와 BLE/위치 권한 |
 | D-06 | 비회원 구매 | 데모 checkout 허용, 운영 정책 미정 | cart ownership, checkout, 주문 조회 |
 | D-07 | 체험 쿠폰 | 중복·만료·최대 할인 정책 미정 | 발급/적용 로직 |
-| D-08 | 쉼터MAP | URL placeholder 후 중앙 설정 교체 | 외부 navigation |
+| D-08 | 쉼터MAP | `https://coolingcare.vercel.app/` 중앙 설정 연결 | 외부 navigation |
 | D-09 | 자산 | 공식 자산 우선, 없으면 승인된 placeholder | 360°/제품 일관성 |
 | D-10 | 운영 연락처·약관 | 검증 정보 제공 전 placeholder | Footer, 회원가입, 개인정보 |
 

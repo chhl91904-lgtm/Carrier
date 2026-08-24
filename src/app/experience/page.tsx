@@ -120,13 +120,13 @@ export default function ExperiencePage() {
         <Container size="wide">
           <p>EXTERNAL COLLABORATION</p>
           <h2 id="experience-map-title">
-            쉼터MAP에서 체험존을 찾는 연결을 준비합니다.
+            쉼터MAP에서 체험존 위치를 확인하세요.
           </h2>
           <p className="experience-map-description">
             쉼터MAP은 CANE MATE가 운영하는 자체 서비스가 아닌 외부 협업
-            서비스입니다. 향후 외부 지도에서 일반 쉼터와 CANE MATE 체험존을 서로
-            다른 아이콘과 설명으로 구분할 예정이며, 실제 장소는 검증된 데이터만
-            표시합니다.
+            서비스입니다. 외부 지도에서 냉방 쉼터와 CANE MATE 연계 정보를 확인할
+            수 있으며, 실제 위치와 운영 여부는 외부 서비스의 최신 안내를
+            확인해주세요.
           </p>
           <div
             className="experience-map-legend"
@@ -147,7 +147,7 @@ export default function ExperiencePage() {
               rel="noreferrer"
               target="_blank"
             >
-              외부 쉼터MAP 열기 <span>새 창</span>
+              체험존 위치 확인하기 <span>새 창</span>
             </a>
           ) : (
             <div className="experience-map-unavailable" role="status">

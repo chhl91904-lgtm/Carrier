@@ -20,8 +20,10 @@ describe("EXPERIENCE", () => {
   it("identifies Shelter MAP as an external collaboration and does not invent locations", () => {
     const html = renderToStaticMarkup(<ExperiencePage />);
     expect(html).toContain("외부 협업 서비스");
-    expect(html).toContain("외부 쉼터MAP URL 준비 중");
-    expect(html).toContain("실제 장소는 검증된 데이터만 표시");
+    expect(html).toContain("쉼터MAP에서 체험존 위치를 확인하세요");
+    expect(html).toContain('href="https://coolingcare.vercel.app/"');
+    expect(html).toContain("체험존 위치 확인하기");
+    expect(html).toContain("실제 위치와 운영 여부");
     expect(html).toContain("CANE MATE /experience");
     expect(html).not.toContain("○○동 CANE MATE 체험존");
   });

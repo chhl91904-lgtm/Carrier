@@ -486,6 +486,6 @@
 - [x] D-05 실제 companion app/BLE 구현 여부 승인
 - [x] D-06 비회원 구매 정책 승인
 - [x] D-07 체험 쿠폰 중복·만료·할인 상한 승인
-- [ ] D-08 쉼터MAP URL 수령
+- [x] D-08 쉼터MAP URL 수령 (`https://coolingcare.vercel.app/`)
 - [x] D-09 공식 logo·제품·360°·Exploded View 자산 수령 또는 placeholder 승인
 - [x] D-10 기관 연락처·약관 수령 또는 placeholder 승인

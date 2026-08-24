@@ -16,10 +16,14 @@ function optionalValue(value?: string): string | null {
   return normalized ? normalized : null;
 }
 
+export const verifiedShelterMapUrl = "https://coolingcare.vercel.app/";
+
 export const siteConfig = {
   name: "CANE MATE",
   mode: resolveAppMode(process.env.NEXT_PUBLIC_APP_MODE),
-  shelterMapUrl: optionalValue(process.env.NEXT_PUBLIC_SHELTER_MAP_URL),
+  shelterMapUrl:
+    optionalValue(process.env.NEXT_PUBLIC_SHELTER_MAP_URL) ??
+    verifiedShelterMapUrl,
   organizations: [
     {
       name: "광주인력개발원",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { FloatingShelterButton } from "@/components/floating-shelter-button";
 import { HomeFeatureIcon, RecyclingIcon } from "@/components/home/home-icons";
 import { ProductVisualPlaceholder } from "@/components/home/product-visual-placeholder";
 import { Container } from "@/components/ui/layout";
@@ -132,6 +133,7 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+      <FloatingShelterButton />
     </main>
   );
 }

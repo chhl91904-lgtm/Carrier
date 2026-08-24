@@ -23,6 +23,8 @@ describe("HOME page", () => {
     expect(html).toContain("소재 분리·재생");
     expect(html).toContain('href="/esg"');
     expect(html).toContain('href="/product"');
+    expect(html).toContain('href="https://coolingcare.vercel.app/"');
+    expect(html).toContain("쉼터MAP");
   });
 
   it("summarizes exactly seven core functions without unsafe claims", () => {

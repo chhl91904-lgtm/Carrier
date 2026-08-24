@@ -50,16 +50,17 @@ describe("global site shell", () => {
     expect(html).toContain('class="cart-count"');
   });
 
-  it("keeps unverified contacts and shelter URL as explicit placeholders", () => {
+  it("keeps unverified contacts as placeholders and links the verified shelter map", () => {
     const footerHtml = renderToStaticMarkup(<SiteFooter />);
     const floatingHtml = renderToStaticMarkup(<FloatingShelterButton />);
 
     expect(footerHtml).toContain("광주인력개발원");
     expect(footerHtml).toContain("오텍캐리어");
     expect(footerHtml).toContain("정보 확인 중");
-    expect(footerHtml).toContain("URL 준비 중");
-    expect(floatingHtml).toContain('aria-disabled="true"');
-    expect(floatingHtml).not.toContain("href=");
+    expect(footerHtml).toContain('href="https://coolingcare.vercel.app/"');
+    expect(footerHtml).toContain("체험존 찾기");
+    expect(floatingHtml).toContain('href="https://coolingcare.vercel.app/"');
+    expect(floatingHtml).toContain('target="_blank"');
   });
 
   it("labels a configured shelter link as an external new-window destination", () => {
