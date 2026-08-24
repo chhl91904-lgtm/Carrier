@@ -9,6 +9,7 @@ import { LogoutButton } from "@/components/auth/logout-button";
 import { CartIcon, CloseIcon, MenuIcon } from "@/components/icons/site-icons";
 import { IconButton } from "@/components/ui/icon-button";
 import { Container } from "@/components/ui/layout";
+import { VoiceGuideButton } from "@/components/voice-guide-button";
 import { primaryNavigation } from "@/config/routes";
 import { isActiveRoute } from "@/lib/navigation/is-active-route";
 
@@ -99,6 +100,7 @@ export function SiteHeader({
           >
             CANE MATE
           </Link>
+          <VoiceGuideButton key={pathname} />
         </div>
 
         <div className="header-actions">
