@@ -100,3 +100,50 @@ video {
     transition-duration: 0.01ms !important;
   }
 }
+
+@media (pointer: fine) {
+  html,
+  body {
+    cursor:
+      url("/assets/cursor-default.svg") 5 3,
+      auto;
+  }
+
+  a,
+  button,
+  select,
+  summary,
+  label[for],
+  [role="button"],
+  [role="tab"],
+  input[type="button"],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="reset"],
+  input[type="submit"] {
+    cursor:
+      url("/assets/cursor-pointer.svg") 18 7,
+      pointer !important;
+  }
+
+  input:not([type]),
+  input[type="date"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"],
+  textarea,
+  [contenteditable="true"] {
+    cursor:
+      url("/assets/cursor-text.svg") 24 24,
+      text !important;
+  }
+
+  :disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed !important;
+  }
+}
