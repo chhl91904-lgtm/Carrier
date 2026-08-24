@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 
-import { FloatingShelterButton } from "@/components/floating-shelter-button";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { SkipLink } from "@/components/ui/skip-link";
@@ -43,7 +42,6 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         />
         {children}
         <SiteFooter />
-        <FloatingShelterButton />
       </body>
     </html>
   );
