@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 import { HomeFeatureIcon } from "@/components/home/home-icons";
 import { AppModeShowcase } from "@/components/product/app-mode-showcase";
@@ -289,35 +290,14 @@ function ProductFeatureCard({
 function UsageAngleDiagram() {
   return (
     <figure className="usage-angle-diagram">
-      <svg
-        viewBox="0 0 560 500"
-        role="img"
-        aria-labelledby="angle-title angle-desc"
-      >
-        <title id="angle-title">약 40~45도 지팡이 사용 각도</title>
-        <desc id="angle-desc">
-          사람이 지팡이를 자연스럽게 앞으로 기울여 사용하는 모습을 단순화하고,
-          지면과 지팡이 사이의 약 40도에서 45도 범위를 파란색 각도로 표시한
-          그림입니다.
-        </desc>
-        <path d="M54 420h458" className="angle-ground" />
-        <circle cx="190" cy="94" r="36" className="angle-person" />
-        <path
-          d="M190 132v145M190 170l-73 84M190 174l92 46M190 277l-58 142M190 277l67 142"
-          className="angle-person-line"
-        />
-        <path d="M282 220 448 418" className="angle-cane" />
-        <path d="M404 418a54 54 0 0 1 18-41" className="angle-arc" />
-        <path d="M418 418a40 40 0 0 1 13-31" className="angle-arc-secondary" />
-        <text x="350" y="373" className="angle-label">
-          약 40~45°
-        </text>
-        <path d="M275 207h86" className="angle-sensor-line" />
-        <circle cx="282" cy="220" r="7" className="angle-sensor" />
-        <text x="369" y="204" className="angle-small-label">
-          SENSOR DIRECTION
-        </text>
-      </svg>
+      <Image
+        className="usage-angle-image"
+        src="/assets/cane-mate-sensor-angle.png"
+        alt="CANE MATE 사용 각도와 ToF 센서 감지 방향"
+        width={390}
+        height={426}
+        sizes="(min-width: 64rem) 50vw, 100vw"
+      />
       <figcaption>
         <strong>센서 각도 구조</strong>
         <span>

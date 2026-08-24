@@ -4161,9 +4161,11 @@ a.floating-shelter-button:hover {
   background: var(--color-surface);
 }
 
-.usage-angle-diagram svg {
+.usage-angle-image {
+  display: block;
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .angle-ground,
