@@ -459,7 +459,7 @@ textarea.ui-control {
   min-height: var(--control-min-size);
   align-items: center;
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   line-height: 1;
   letter-spacing: 0.08em;
   text-decoration: none;
@@ -502,7 +502,7 @@ textarea.ui-control {
   padding-inline: var(--space-3);
   color: var(--color-navy);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   text-decoration: none;
 }
 
@@ -542,7 +542,7 @@ textarea.ui-control {
   background: var(--color-error);
   color: var(--color-white);
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   line-height: 1;
 }
 
@@ -576,7 +576,7 @@ textarea.ui-control {
   align-items: center;
   color: var(--color-text-muted);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.08em;
   text-decoration: none;
 }
@@ -605,7 +605,7 @@ textarea.ui-control {
 }
 
 .primary-navigation-link[aria-current="page"] {
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .menu-dialog {
@@ -638,7 +638,7 @@ textarea.ui-control {
   margin: 0 0 var(--space-2);
   color: var(--color-carrier-blue);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -657,7 +657,7 @@ textarea.ui-control {
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-surface-strong);
   color: var(--color-charcoal);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.06em;
   text-decoration: none;
 }
@@ -701,7 +701,7 @@ textarea.ui-control {
   margin: 0 0 var(--space-3);
   color: #86c4ff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -883,7 +883,7 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-3);
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.12em;
 }
 
@@ -924,7 +924,7 @@ a.floating-shelter-button:hover {
 .mypage-record-list span {
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .mypage-record-list h2 {
@@ -956,7 +956,7 @@ a.floating-shelter-button:hover {
   display: inline-block;
   margin-top: var(--space-4);
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .mypage-summary {
@@ -990,7 +990,7 @@ a.floating-shelter-button:hover {
   margin: var(--space-3) 0 0;
   color: var(--color-navy);
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .mypage-summary dd span {
@@ -1018,7 +1018,7 @@ a.floating-shelter-button:hover {
 .order-record-heading strong {
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .order-record-heading h2 {
@@ -1047,7 +1047,7 @@ a.floating-shelter-button:hover {
 .order-record dd {
   margin: var(--space-2) 0 0;
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .order-record ul {
@@ -1128,7 +1128,7 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-4);
   color: var(--color-carrier-blue-light);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.14em;
 }
 
@@ -1200,14 +1200,14 @@ a.floating-shelter-button:hover {
 .esg-pillar-list article > span {
   color: var(--color-carrier-blue-active);
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .esg-pillar-list article > p {
   margin: 0 0 var(--space-4);
   color: var(--color-text-muted);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.1em;
 }
 
@@ -1277,7 +1277,7 @@ a.floating-shelter-button:hover {
 .esg-social-values span {
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .esg-social-values strong {
@@ -1316,7 +1316,7 @@ a.floating-shelter-button:hover {
 .circular-visual span {
   color: var(--color-carrier-blue-light);
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .circular-visual strong {
@@ -1405,7 +1405,7 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-4);
   color: var(--color-carrier-blue-light);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.14em;
 }
 
@@ -1473,7 +1473,7 @@ a.floating-shelter-button:hover {
 
 .support-hub a > span {
   color: var(--color-carrier-blue-active);
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .support-hub h3 {
@@ -1525,7 +1525,7 @@ a.floating-shelter-button:hover {
 .guide-steps > li > span,
 .faq-list summary span {
   color: var(--color-carrier-blue-active);
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .guide-steps h2 {
@@ -1565,7 +1565,7 @@ a.floating-shelter-button:hover {
 .support-next a,
 .inquiry-status a {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .faq-list details {
@@ -1585,7 +1585,7 @@ a.floating-shelter-button:hover {
   padding-block: var(--space-6);
   color: var(--color-navy);
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .faq-list details p {
@@ -1670,7 +1670,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 .feedback-heading h1 {
@@ -1756,7 +1756,7 @@ a.floating-shelter-button:hover {
   display: inline-block;
   margin-top: var(--space-3);
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 .rating-fieldset {
   padding: 0;
@@ -1765,7 +1765,7 @@ a.floating-shelter-button:hover {
 }
 .rating-fieldset legend {
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 .rating-fieldset legend span {
   color: var(--color-error);
@@ -1797,7 +1797,7 @@ a.floating-shelter-button:hover {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-medium);
   background: var(--color-white);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   cursor: pointer;
 }
 .rating-fieldset input:checked + span {
@@ -1826,7 +1826,7 @@ a.floating-shelter-button:hover {
 }
 .feedback-policy-note a {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 @media (min-width: 64rem) {
   .feedback-type-grid {
@@ -1855,7 +1855,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: #8dccff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 .experience-hero h1 {
@@ -1917,7 +1917,7 @@ a.floating-shelter-button:hover {
   border-radius: 50%;
   background: var(--color-navy);
   color: var(--color-white);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 .experience-purpose-grid h3 {
   margin: var(--space-6) 0 0;
@@ -1944,7 +1944,7 @@ a.floating-shelter-button:hover {
 }
 .experience-program-list li > span {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 .experience-program-list h3 {
   margin: 0;
@@ -2011,7 +2011,7 @@ a.floating-shelter-button:hover {
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-pill);
   background: var(--color-white);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 .experience-map-legend i {
   display: grid;
@@ -2036,7 +2036,7 @@ a.floating-shelter-button:hover {
   background: var(--color-navy);
   color: var(--color-white);
   font-size: clamp(1.5rem, 5vw, 3rem);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   text-decoration: none;
 }
 .experience-map-link span {
@@ -2063,7 +2063,7 @@ a.floating-shelter-button:hover {
 }
 .experience-return-note a {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 @media (min-width: 48rem) {
   .experience-purpose-grid {
@@ -2098,7 +2098,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -2183,14 +2183,14 @@ a.floating-shelter-button:hover {
   background: var(--color-navy);
   color: var(--color-white);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .checkout-section h2,
 .checkout-fieldset legend {
   color: var(--color-navy);
   font-size: var(--font-size-heading-small);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   line-height: var(--line-height-heading);
 }
 
@@ -2272,7 +2272,7 @@ a.floating-shelter-button:hover {
 .coupon-option em {
   font-size: var(--font-size-caption);
   font-style: normal;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .coupon-actions,
@@ -2293,7 +2293,7 @@ a.floating-shelter-button:hover {
 
 .coupon-login-note a {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .checkout-fields {
@@ -2325,7 +2325,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: #8dccff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -2351,7 +2351,7 @@ a.floating-shelter-button:hover {
 
 .checkout-total dl > div:last-child {
   font-size: var(--font-size-body-large);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .checkout-total dd,
@@ -2384,7 +2384,7 @@ a.floating-shelter-button:hover {
   align-items: center;
   margin-top: var(--space-6);
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .checkout-empty,
@@ -2408,7 +2408,7 @@ a.floating-shelter-button:hover {
   border-radius: 50%;
   background: var(--color-navy);
   color: var(--color-white);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .checkout-empty h1,
@@ -2480,7 +2480,7 @@ a.floating-shelter-button:hover {
 .coupon-wallet-list span {
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -2561,7 +2561,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -2627,7 +2627,7 @@ a.floating-shelter-button:hover {
   background: var(--color-carrier-blue-soft);
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .buy-product-info h2 {
@@ -2641,7 +2641,7 @@ a.floating-shelter-button:hover {
   margin: var(--space-3) 0 0;
   color: var(--color-navy);
   font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
   line-height: var(--line-height-heading);
 }
 
@@ -2688,7 +2688,7 @@ a.floating-shelter-button:hover {
 .buy-quantity-field > label {
   display: block;
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .buy-quantity-field > div {
@@ -2714,7 +2714,7 @@ a.floating-shelter-button:hover {
 
 .buy-quantity-field button {
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   cursor: pointer;
 }
 
@@ -2726,7 +2726,7 @@ a.floating-shelter-button:hover {
   width: 100%;
   border-right: 1px solid var(--color-border);
   border-left: 1px solid var(--color-border);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .buy-quantity-field > p {
@@ -2774,7 +2774,7 @@ a.floating-shelter-button:hover {
   border-radius: var(--radius-medium);
   background: var(--color-white);
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   cursor: pointer;
 }
 
@@ -2973,7 +2973,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: #8dccff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -3000,7 +3000,7 @@ a.floating-shelter-button:hover {
 
 .cart-summary dd {
   margin: 0;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   text-align: right;
 }
 
@@ -3058,7 +3058,7 @@ a.floating-shelter-button:hover {
   background: var(--color-carrier-blue-soft);
   color: var(--color-carrier-blue-active);
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: var(--font-weight-display);
 }
 
 .cart-empty h2 {
@@ -3248,14 +3248,14 @@ a.floating-shelter-button:hover {
   margin: 0 0 var(--space-5);
   color: #8dcbff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
 .home-hero h1 {
   margin: 0;
   font-size: clamp(3.5rem, 10vw, 8.75rem);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   line-height: 0.88;
   letter-spacing: -0.07em;
 }
@@ -3285,7 +3285,7 @@ a.floating-shelter-button:hover {
   border-bottom: 2px solid currentColor;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-body-small);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.08em;
   text-decoration: none;
 }
@@ -3314,7 +3314,7 @@ a.floating-shelter-button:hover {
   transform: translateX(-50%);
   color: #bcd7ee;
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.18em;
   text-decoration: none;
 }
@@ -3449,7 +3449,7 @@ a.floating-shelter-button:hover {
 .home-function-number {
   color: var(--color-carrier-blue);
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.12em;
 }
 
@@ -3704,7 +3704,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -3803,7 +3803,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: #8dccff;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -3965,7 +3965,7 @@ a.floating-shelter-button:hover {
   fill: #bde1ff;
   font-family: var(--font-family-sans);
   font-size: 11px;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 1.4px;
 }
 
@@ -4114,7 +4114,7 @@ a.floating-shelter-button:hover {
 .angle-small-label {
   fill: var(--color-carrier-blue-active);
   font-family: var(--font-family-sans);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .angle-label {
@@ -4184,7 +4184,7 @@ a.floating-shelter-button:hover {
 .product-feature-card-number {
   color: var(--color-carrier-blue);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.12em;
 }
 
@@ -4225,7 +4225,7 @@ a.floating-shelter-button:hover {
   border: 1px solid currentColor;
   border-radius: 50%;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   font-style: normal;
 }
 
@@ -4273,7 +4273,7 @@ a.floating-shelter-button:hover {
 .product-connection-index {
   color: #8dccff;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .product-connection strong {
@@ -4357,7 +4357,7 @@ a.floating-shelter-button:hover {
   grid-row: 1 / span 2;
   color: #8dccff;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .guardian-confirmation-flow li strong {
@@ -4580,7 +4580,7 @@ a.floating-shelter-button:hover {
   fill: #9fd5ff;
   font-family: var(--font-family-sans);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 1.4px;
   text-anchor: middle;
 }
@@ -4601,7 +4601,7 @@ a.floating-shelter-button:hover {
   fill: var(--color-white);
   font-family: var(--font-family-sans);
   font-size: 11px;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .exploded-part-sensor > circle:not(:first-of-type),
@@ -4649,7 +4649,7 @@ a.floating-shelter-button:hover {
   background: var(--color-carrier-blue-soft);
   color: var(--color-carrier-blue-active);
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .exploded-parts-list h3 {
@@ -4706,7 +4706,7 @@ a.floating-shelter-button:hover {
 .product-spec-grid dt {
   color: #9fd5ff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -4714,7 +4714,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-white);
   font-size: clamp(1.25rem, 3vw, 1.75rem);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   line-height: var(--line-height-heading);
 }
 
@@ -4751,7 +4751,7 @@ a.floating-shelter-button:hover {
   background: var(--color-white);
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .app-mode-tabs {
@@ -4785,7 +4785,7 @@ a.floating-shelter-button:hover {
 }
 
 .app-mode-tabs button span {
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .app-mode-tabs button small {
@@ -4804,7 +4804,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -4896,7 +4896,7 @@ a.floating-shelter-button:hover {
 .app-phone-status-grid span {
   color: var(--color-carrier-blue-active);
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.12em;
 }
 
@@ -4904,7 +4904,7 @@ a.floating-shelter-button:hover {
 .app-alert-card > span {
   color: #8fc9ff;
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: 0.12em;
 }
 
@@ -4919,7 +4919,7 @@ a.floating-shelter-button:hover {
   background: #e6f6ed;
   color: #17613a;
   font-size: 0.6875rem;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .app-voice-card,
@@ -5133,7 +5133,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: var(--color-carrier-blue-active);
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -5282,7 +5282,7 @@ a.floating-shelter-button:hover {
 
 .auth-terms-field label {
   color: var(--color-navy);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .auth-terms-field p {
@@ -5305,7 +5305,7 @@ a.floating-shelter-button:hover {
 
 .auth-switch-link a {
   color: var(--color-carrier-blue-active);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .mypage-heading {
@@ -5326,7 +5326,7 @@ a.floating-shelter-button:hover {
   margin: 0;
   color: #8dccff;
   font-size: var(--font-size-caption);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
   letter-spacing: var(--letter-spacing-label);
 }
 
@@ -5355,7 +5355,7 @@ a.floating-shelter-button:hover {
 
 .mypage-session-card dd {
   margin: 0;
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .mypage-session-card .mypage-logout-button {
@@ -5400,7 +5400,7 @@ a.floating-shelter-button:hover {
 
 .mypage-nav span {
   font-size: var(--font-size-body-large);
-  font-weight: 800;
+  font-weight: var(--font-weight-strong);
 }
 
 .mypage-nav small {

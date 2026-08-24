@@ -28,6 +28,8 @@
   --font-family-sans:
     "Inter Variable", "Pretendard Variable", Pretendard, "Apple SD Gothic Neo",
     "Noto Sans KR", sans-serif;
+  --font-weight-strong: 700;
+  --font-weight-display: 800;
   --font-size-caption: 0.875rem;
   --font-size-body-small: 0.9375rem;
   --font-size-body: 1rem;
@@ -38,8 +40,8 @@
   --line-height-tight: 1.1;
   --line-height-heading: 1.2;
   --line-height-body: 1.7;
-  --letter-spacing-heading: -0.035em;
-  --letter-spacing-label: 0.12em;
+  --letter-spacing-heading: -0.025em;
+  --letter-spacing-label: 0.09em;
 
   /* Spacing */
   --space-1: 0.25rem;

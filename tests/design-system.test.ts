@@ -48,6 +48,18 @@ describe("design tokens", () => {
     );
   });
 
+  it("uses balanced typography without synthetic ultra-heavy emphasis", () => {
+    const components = readFileSync("src/app/components.css", "utf8");
+    const globals = readFileSync("src/app/globals.css", "utf8");
+    const tokens = readFileSync("src/app/tokens.css", "utf8");
+
+    expect(components).not.toMatch(/font-weight:\s*(800|900);/);
+    expect(tokens).toContain("--font-weight-strong: 700");
+    expect(tokens).toContain("--font-weight-display: 800");
+    expect(globals).toContain("word-break: keep-all");
+    expect(globals).toContain("text-wrap: balance");
+  });
+
   it("defines responsive breakpoints from mobile through wide desktop", () => {
     expect(layoutTokens.breakpoints).toEqual({
       mobile: "40rem",

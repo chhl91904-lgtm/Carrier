@@ -23,8 +23,26 @@ body {
   color: var(--color-charcoal);
   font-family: var(--font-family-sans);
   font-size: var(--font-size-body);
+  font-weight: 400;
+  font-kerning: normal;
   line-height: var(--line-height-body);
+  word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p,
+li,
+dd {
+  text-wrap: pretty;
 }
 
 main {
