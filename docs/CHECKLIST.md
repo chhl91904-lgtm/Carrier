@@ -454,6 +454,7 @@
 - [x] README의 설치·실행·테스트·demo 제한 안내
 - [x] Git 변경 범위와 사용자 기존 변경 보존 확인
 - [x] 승인된 GitHub 저장소 `chhl91904-lgtm/Carrier`의 `main` branch에 게시
+- [x] GitHub `main` branch와 Vercel Production 자동 배포 연결
 - [x] 승인된 배포 환경 설정
 - [x] production build 성공
 - [x] 쉼터MAP 실제 URL 또는 명시적 placeholder 확인

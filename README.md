@@ -59,7 +59,7 @@ npm run start
 
 Production 공유 URL: <https://cane-mate.vercel.app>
 
-Vercel의 `cane-mate` 프로젝트에 Next.js Production으로 배포되어 있습니다. 소스는 [GitHub `chhl91904-lgtm/Carrier`](https://github.com/chhl91904-lgtm/Carrier)의 `main` 브랜치에서 관리합니다. 공급자에 종속되지 않는 Node.js 배포 절차, 현재 배포 ID와 운영 전 확인 항목은 [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)를 참고하세요. Vercel 자동 배포 연결은 계정의 GitHub Login Connection 설정 후 활성화합니다.
+Vercel의 `cane-mate` 프로젝트에 Next.js Production으로 배포되어 있습니다. 소스는 [GitHub `chhl91904-lgtm/Carrier`](https://github.com/chhl91904-lgtm/Carrier)의 `main` 브랜치에서 관리하며, `main` 푸시는 Vercel Production 자동 배포를 실행합니다. 공급자에 종속되지 않는 Node.js 배포 절차, 현재 배포 정보와 운영 전 확인 항목은 [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)를 참고하세요.
 
 ## 주요 문서
 
