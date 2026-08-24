@@ -5,10 +5,11 @@
 - Production URL: <https://cane-mate.vercel.app>
 - 공급자·프로젝트: Vercel `chhl91904-4220s-projects/cane-mate`
 - 배포 ID: `dpl_6WbDkYZTy8yEk1rUn1FTz7Kd7ABZ`
+- GitHub 저장소: `https://github.com/chhl91904-lgtm/Carrier` (`main`)
 - 모드: `demo`
 - 상태: `READY`
 
-2026-08-24 기준 실제 URL의 주요 21개 경로가 HTTP 200을 반환했고, 모바일 홈과 데스크톱 제품·ESG·문의 페이지, 보호 경로, 장바구니, 로그인, 문의 접수와 MY PAGE 연결을 확인했다. axe 위반과 브라우저 콘솔 오류는 0건이며 CSP 등 보안 헤더가 적용되어 있다. Git 저장소 자동 배포는 아직 연결하지 않았다.
+2026-08-24 기준 실제 URL의 주요 21개 경로가 HTTP 200을 반환했고, 모바일 홈과 데스크톱 제품·ESG·문의 페이지, 보호 경로, 장바구니, 로그인, 문의 접수와 MY PAGE 연결을 확인했다. axe 위반과 브라우저 콘솔 오류는 0건이며 CSP 등 보안 헤더가 적용되어 있다. 소스는 GitHub `main`에 게시했으며, Vercel 자동 배포는 Vercel 계정에 GitHub Login Connection을 추가한 뒤 연결해야 한다.
 
 ## 빌드·실행 계약
 

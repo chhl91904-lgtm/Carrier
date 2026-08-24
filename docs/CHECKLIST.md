@@ -452,8 +452,8 @@
 - [x] 환경 변수 목록과 안전한 예시 파일
 - [x] 비밀정보와 실제 개인정보가 저장소에 없음
 - [x] README의 설치·실행·테스트·demo 제한 안내
-- [ ] Git 변경 범위와 사용자 기존 변경 보존 확인
-- [ ] 승인된 GitHub 저장소와 branch에 게시
+- [x] Git 변경 범위와 사용자 기존 변경 보존 확인
+- [x] 승인된 GitHub 저장소 `chhl91904-lgtm/Carrier`의 `main` branch에 게시
 - [x] 승인된 배포 환경 설정
 - [x] production build 성공
 - [x] 쉼터MAP 실제 URL 또는 명시적 placeholder 확인
